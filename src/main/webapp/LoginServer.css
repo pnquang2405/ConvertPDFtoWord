@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(120deg, #3ca7ee, #9b408f);
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.Login {
+  position: absolute;
+  width: 30rem;
+  height: 30em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 0.75rem #ffbcab;
+}
+.Login__Heading {
+  font-size: 4.5rem;
+  font-style: bold;
+  color: #000000;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.Login__content {
+  position: relative;
+  margin: 2rem 2rem;
+}
+.Login__input {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background: none;
+  transition: all 0.25s linear;
+  border-bottom: 2px solid #adadad;
+}
+.Login__input:focus {
+  border-bottom-color: #2691D9;
+}
+.Login__submit {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0.75rem;
+  width: 25rem;
+  height: 3rem;
+  background: #2691D9;
+  border: 1px solid;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  color: #e9f4fb;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 3px 0 0 #0f3f5f;
+}
+.Login__submit:hover {
+  background-color: #adadad;
+  color: black;
+}
+.Login__submit:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 0 #0f3f5f;
+}
+
+/*# sourceMappingURL=PBL4.css.map */
